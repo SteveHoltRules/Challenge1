@@ -48,9 +48,10 @@ a {
     text-decoration: none;
 }
 
-p {
+/* Chage: Include the font size with content-p */
+/* p {
     font-size: 16px;
-}
+} */
 
 .hero {
     height: 800px;
@@ -77,11 +78,11 @@ p {
     margin-left: 20px;
 }
 
-.content p {
+.content p, p {
     font-size: 16px;
 }
 
-/* eliminate the triplicate on teh benefits */
+/* Change: eliminate the triplicate on benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
